@@ -1,0 +1,164 @@
+body {
+    overflow: hidden;
+    font-family: 'VT323', monospace;
+}
+
+.img_style {
+    display: flex;
+    justify-content: center;
+    margin: 12% 0 3.5% 0;
+}
+
+.img_style img {
+    height: 55vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 3% 0 -8% 0;
+    font-size: 300%;
+    color: white;
+}
+
+.button_style {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    padding: 1% 1.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0% 1%;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #ADF8F8
+}
+
+#voed img {
+    height: 8vh;
+}
+
+#aandacht img {
+    height: 5vh;
+}
+
+#drinken img {
+    height: 6vh;
+}
+
+.office {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/office.png");
+    background-size: 65vh;
+}
+
+.modern {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/modern.png");
+    background-size: 50vh;
+}
+
+.himym {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/himym.png");
+    background-size: 50vh;
+}
+
+.friends {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/friends.png");
+    background-size: 70vh;
+}
+
+.eten_anim {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    animation-name: eten;
+    animation-duration: 1s;
+    visibility: hidden;
+    background-image: url(../images/eten_anim.png);
+    background-size: 22vh;
+    background-repeat: no-repeat;
+}
+
+@keyframes eten {
+    0% {
+        visibility: visible;
+        left: 45vw;
+        top: -50vh;
+    }
+
+    100% {
+        visibility: visible;
+        left: 45vw;
+        top: 38vh;
+    }
+}
+
+.aandacht_anim {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    animation-name: aandacht;
+    animation-duration: 1s;
+    visibility: hidden;
+    background-image: url(../images/aandacht.png);
+    background-size: 22vh;
+    background-repeat: no-repeat;
+}
+
+@keyframes aandacht {
+    0% {
+        visibility: visible;
+        left: 45vw;
+        top: -50vh;
+    }
+
+    100% {
+        visibility: visible;
+        left: 45vw;
+        top: 53vh;
+    }
+}
+
+.drinken_anim {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    animation-name: drinken;
+    animation-duration: 1s;
+    visibility: hidden;
+    background-image: url(../images/drinken.png);
+    background-size: 22vh;
+    background-repeat: no-repeat;
+}
+
+@keyframes drinken {
+    0% {
+        visibility: visible;
+        left: 45vw;
+        top: -50vh;
+    }
+
+    100% {
+        visibility: visible;
+        left: 45vw;
+        top: 45vh;
+    }
+}
+
+.tekstballon {
+    font-size: 280%;
+    text-align: center;
+    background-color: white;
+    padding: 50px 35px;
+    color: black;
+    margin: 13% 0 0 57%;
+    position: absolute;
+    line-height: 35px;
+    border-radius: 50%;
+}
